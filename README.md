@@ -14,8 +14,12 @@
 <p>Example:</p>
 
 <pre>
-<code>python dev.py -c pup -t py -np my_project</code>
+<code>python dev.py -c &lt;category&gt; -nt &lt;new_technology_name&gt; -np &lt;project_name&gt;</code>
 </pre>
+
+<p>&lt;category&gt;: Specify the category of the project. Choose from 'hrv', 'cev', 'pup', 'wk', or 'csj'.</p>
+<p>&lt;technology&gt;: Specify the technology of the project. Name it with a techlogy that dosen't exist.</p>
+<p>&lt;project_name&gt;: Provide the name of the new project.</p>
 
 <p>To list existing projects within a specific category and technology, run the script with the following command-line arguments:</p>
 
